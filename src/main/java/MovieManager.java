@@ -32,10 +32,10 @@ public class MovieManager {
         } else {
             resultLength = limit;
         }
-            String[] result = new String[resultLength];
-            for (int i = 0; i < result.length; i++) {
-                result[i] = movies[movies.length - 1 - i];
-            }
-            return result;
+        String[] result = new String[resultLength];
+        for (int i = 0; i < result.length; i++) {
+            result[i] = movies[movies.length - 1 - i];
         }
+        return result;
     }
+}
